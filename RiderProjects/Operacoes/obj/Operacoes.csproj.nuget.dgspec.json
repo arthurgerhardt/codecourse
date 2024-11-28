@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arthurdiasgomesgerhardt/Documents/Arquivos/RiderProjects/Operacoes/Operacoes.csproj": {}
+    "/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Operacoes/Operacoes.csproj": {}
   },
   "projects": {
-    "/Users/arthurdiasgomesgerhardt/Documents/Arquivos/RiderProjects/Operacoes/Operacoes.csproj": {
+    "/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Operacoes/Operacoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arthurdiasgomesgerhardt/Documents/Arquivos/RiderProjects/Operacoes/Operacoes.csproj",
+        "projectUniqueName": "/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Operacoes/Operacoes.csproj",
         "projectName": "Operacoes",
-        "projectPath": "/Users/arthurdiasgomesgerhardt/Documents/Arquivos/RiderProjects/Operacoes/Operacoes.csproj",
+        "projectPath": "/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Operacoes/Operacoes.csproj",
         "packagesPath": "/Users/arthurdiasgomesgerhardt/.nuget/packages/",
-        "outputPath": "/Users/arthurdiasgomesgerhardt/Documents/Arquivos/RiderProjects/Operacoes/obj/",
+        "outputPath": "/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Operacoes/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arthurdiasgomesgerhardt/.nuget/NuGet/NuGet.Config"
@@ -37,8 +37,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

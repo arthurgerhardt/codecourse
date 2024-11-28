@@ -7,13 +7,20 @@ namespace Operacoes
     {
         static void Main(string[] args)
         {
-            var numero = 0;
-            do
+           var texto = Teste(5);
+           Console.WriteLine(texto);
+                
+        }
+        static string Teste(int numero) {
+            Console.WriteLine("Teste 1");
+            if(numero == 5)
             {
-                Console.WriteLine("Teste");
-                numero++;
-            } while (numero < 10);
-            Console.WriteLine("Saiu do while.");
+                Console.WriteLine("Teste 2");
+                return "wellison";
+            }
+            Console.WriteLine("Teste 3");
+            
+            return "Willian";
         }
     }
 }
