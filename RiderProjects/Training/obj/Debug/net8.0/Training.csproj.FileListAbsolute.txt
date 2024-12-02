@@ -1,0 +1,14 @@
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/bin/Debug/net8.0/Training
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/bin/Debug/net8.0/Training.deps.json
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/bin/Debug/net8.0/Training.runtimeconfig.json
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/bin/Debug/net8.0/Training.dll
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/bin/Debug/net8.0/Training.pdb
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.AssemblyInfoInputs.cache
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.AssemblyInfo.cs
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.csproj.CoreCompileInputs.cache
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.dll
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/refint/Training.dll
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.pdb
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/Training.genruntimeconfig.cache
+/Users/arthurdiasgomesgerhardt/codecourse/RiderProjects/Training/obj/Debug/net8.0/ref/Training.dll
