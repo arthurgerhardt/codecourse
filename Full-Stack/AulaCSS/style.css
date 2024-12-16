@@ -1,0 +1,23 @@
+div {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+section{
+    position: relative;
+    border: 1px solid;
+    overflow: scroll;
+    height: 100px;
+}
+
+.position {
+    background-color: red;
+    width: auto;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; 
+    opacity: 0.5;
+}

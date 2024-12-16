@@ -1,0 +1,11 @@
+/* 
+    background-position
+    background-size
+*/
+
+div {
+    width: 300px;
+    height: 300px;
+     /*background-color: blueviolet; */
+    background: rgb(238, 238, 238) url(./assets/images.jpeg) no-repeat top center/900px;
+}
