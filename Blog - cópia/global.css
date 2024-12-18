@@ -38,6 +38,17 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #285da9;
+}
+
+a:hover {
+    color: #3e883e;
+}
+
 /* Rodapé */
 footer {
     text-align: center;
