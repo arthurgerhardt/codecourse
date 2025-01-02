@@ -79,29 +79,65 @@
 
                     </fieldset>
 
-                    <fieldset class="parent-info">
+                    <fieldset class="address">
                         <legend><strong>Endereço residencial</strong></legend>
-                        <div class="input-wrapper">
-                            <label for="homeadress">CEP:</label>
-                            <input type="text">
+                        <div class="input-wrapper flex-2">
+                            <label for="cep">CEP:</label>
+                            <input type="text" id="cep" name="cep" placeholder="01234-567">
                         </div>
 
-                        <div class="input-wrapper">
-                            <label for="homeadress">Rua:</label>
-                            <input type="text" disabled placeholder="Rua das flores">
-                        </div>
+                        <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="street">Rua:</label>
+                                <input type="text" id="street" name="street" value="Rua das Flores" disabled>
+                            </div>
 
-                        <div class="input-wrapper">
-                            <label for="homeadress">Número:</label>
-                            <input type="number" placeholder="123">
+                            <div class="input-wrapper">
+                                <label for="number">Número:</label>
+                                <input type="text" id="number" name="number" value="123">
+                            </div>
                         </div>
+                        <div class="flex">
+                            <div class="input-wrapper flex-1">
+                                <label for="neighborhood">Bairro:</label>
+                                <input type="text" id="neighborhood" name="neighborhood" value="Jardim Primavera"
+                                    disabled>
+                            </div>
 
-                        <div class="input-wrapper">
-                            <label for="homeadress">Cidade:</label>
-                            <input type="text" placeholder="Rio de Janeiro">
+                            <div class="input-wrapper">
+                                <label for="city">Cidade:</label>
+                                <input type="text" id="city" name="city" value="São Paulo" disabled>
+                            </div>
                         </div>
 
                     </fieldset>
+                    <fieldset class="informations">
+                        <legend><strong>Informações do responsável</strong></legend>
+                        <div class="input-wrapper">
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Miguel Roberto Alves">
+                            <p>Principal responsável legal e contato de emergência</p>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="fone">Telefone</label>
+                            <input type="text" name="fone" id="fone" placeholder="(10) 9 8765-4321">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="papailegal123" required>
+                    </fieldset>
+                    <fieldset class="matricula">
+                        <legend><strong>Opções de matrícula</strong></legend>
+                    </fieldset>
+                    <div class="input-wrapper">
+                        <label for="turn">Turno</label>
+                        <select name="turn" id="turn">
+                            <option value="morning">Manhã</option>
+                            <option value="afternoon">Tarde</option>
+                            <option value="full">Integral</option>
+                        </select>
+                    </div>
                 </form>
             </div>
         </main>
