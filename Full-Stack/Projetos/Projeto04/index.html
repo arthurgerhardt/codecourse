@@ -30,17 +30,17 @@
                     <fieldset class="child-info">
                         <legend><strong>Informações da criança</strong></legend>
                         <div class="input-wrapper">
-                            <label for="fullname">Nome completo</label>
+                            <label for="fullname">Nome completo:</label>
                             <input id="fullname" name="fullname" type="text" placeholder="Qual o nome da criança?">
                         </div>
 
                         <div class="input-wrapper">
-                            <label for="birth">Data de nascimento</label>
+                            <label for="birth">Data de nascimento:</label>
                             <input type="date" id="birth" name="birth" lang="pt-BR">
                         </div>
 
                         <div class="select-wrapper">
-                            <label for="gender">Sexo</label>
+                            <label for="gender">Sexo:</label>
                             <select name="gender" id="gender">
                                 <option value="female">Feminino</option>
                                 <option value="male">Masculino</option>
@@ -57,18 +57,38 @@
                         <div class="droparea-wrapper">
                             <label for="birth-file">Certidão de nascimento</label>
                             <input type="file" id="birth-file" name="birth-file">
-                            <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/Uploaddroparea.svg" alt="Area de upload de arquivos">
-                            <p>Clique aqui para <br> 
+                            <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/Uploaddroparea.svg"
+                                alt="Area de upload de arquivos">
+                            <p>Clique aqui para <br>
                                 selecionar os arquivos
                             </p>
+                            <br>
                         </div>
 
                     </fieldset>
 
-                    <fieldset>
+                    <fieldset class="parent-info">
                         <legend><strong>Endereço residencial</strong></legend>
-                        <label for="homeadress">CEP</label>
-                        <input type="text">
+                        <div class="input-wrapper">
+                            <label for="homeadress">CEP:</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="homeadress">Rua:</label>
+                            <input type="text" disabled placeholder="Rua das flores">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="homeadress">Número:</label>
+                            <input type="number" placeholder="123">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="homeadress">Cidade:</label>
+                            <input type="text" placeholder="Rio de Janeiro">
+                        </div>
+
                     </fieldset>
                 </form>
             </div>
