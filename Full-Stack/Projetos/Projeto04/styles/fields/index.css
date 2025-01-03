@@ -84,7 +84,7 @@ input {
         margin-top: .25rem;
     }
 
-    &:valid + .error {
+    &:not(focus):valid + .error {
         display: none;
     }
 }

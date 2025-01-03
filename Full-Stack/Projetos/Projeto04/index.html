@@ -127,20 +127,34 @@
                             <label for="mail">E-mail</label>
                             <input type="email" name="mail" id="mail" placeholder="papailegal123" required>
                             <div class="error">
-                                <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/icons/alert-circle.svg" alt="Alerta de erro">
+                                <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/icons/alert-circle.svg"
+                                    alt="Alerta de erro">
                                 <span>Insira um e-mail válido</span>
                             </div>
                     </fieldset>
-                    <fieldset class="matricula">
+                    <fieldset class="enroll.options">
                         <legend><strong>Opções de matrícula</strong></legend>
                     </fieldset>
                     <div class="input-wrapper">
-                        <label for="turn">Turno</label>
-                        <select name="turn" id="turn">
-                            <option value="morning">Manhã</option>
-                            <option value="afternoon">Tarde</option>
-                            <option value="full">Integral</option>
-                        </select>
+                        <label>Selecione o turno de estudo</label>
+                        <div class="radio-wrapper">
+                            <div class="radio-inner">
+                                <div class="radio-image">
+                                    <input type="radio" name="study-shift" value="morning" id="morning">
+                                    <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/sun-cloud-02.svg"
+                                        alt="Ícone de sol com núvem">
+                                    <label for="morning">Manhã</label>
+                                </div>
+                            </div>
+                            <div class="radio-inner">
+                                <div class="radio-image">
+                                    <input type="radio" name="study-shift" value="afternoon" id="afternoon">
+                                    <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/sun-02.svg"
+                                        alt="Ícone de sol">
+                                    <label for="afternoon">Tarde</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
