@@ -111,21 +111,25 @@
                         </div>
 
                     </fieldset>
-                    <fieldset class="informations">
+                    <fieldset class="guardian">
                         <legend><strong>Informações do responsável</strong></legend>
                         <div class="input-wrapper">
-                            <label for="name"></label>
-                            <input type="text" id="name" name="name" placeholder="Miguel Roberto Alves">
-                            <p>Principal responsável legal e contato de emergência</p>
+                            <label for="name">Nome do responsável</label>
+                            <input type="text" id="guardian" name="guardian" placeholder="Miguel Roberto Alves">
+                            <small>Principal responsável legal e contato de emergência</small>
                         </div>
                         <div class="input-wrapper">
-                            <label for="fone">Telefone</label>
-                            <input type="text" name="fone" id="fone" placeholder="(10) 9 8765-4321">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" name="phone" id="phone" placeholder="(10) 9 8765-4321">
                         </div>
 
                         <div class="input-wrapper">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" placeholder="papailegal123" required>
+                            <label for="mail">E-mail</label>
+                            <input type="email" name="mail" id="mail" placeholder="papailegal123" required>
+                            <div class="error">
+                                <img src="/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/icons/alert-circle.svg" alt="Alerta de erro">
+                                <span>Insira um e-mail válido</span>
+                            </div>
                     </fieldset>
                     <fieldset class="matricula">
                         <legend><strong>Opções de matrícula</strong></legend>
