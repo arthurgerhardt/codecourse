@@ -37,4 +37,18 @@ label + .radio-wrapper {
         top: .5rem;
         left: .5rem;
     }
+    &:hover, &:focus-within {
+        border: solid 1px var(--stroke-highlight);
+
+        & .radio-image {
+            background-image: url(/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/icons/radio-hover.svg);
+        }
+    }
+
+    &:has(:checked) {
+        border: 2px solid var(--stroke-highlight);
+        & .radio-image {
+            background-image: url(/codecourse/rocketseat/Full-Stack/Projetos/Projeto04/assets/icons/radio-checked.svg);
+        }
+    }
 }
