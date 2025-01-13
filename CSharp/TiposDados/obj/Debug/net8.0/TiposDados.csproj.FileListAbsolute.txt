@@ -1,0 +1,15 @@
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/bin/Debug/net8.0/TiposDados
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/bin/Debug/net8.0/TiposDados.deps.json
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/bin/Debug/net8.0/TiposDados.runtimeconfig.json
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/bin/Debug/net8.0/TiposDados.dll
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/bin/Debug/net8.0/TiposDados.pdb
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.AssemblyInfoInputs.cache
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.AssemblyInfo.cs
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.csproj.CoreCompileInputs.cache
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.sourcelink.json
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.dll
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/refint/TiposDados.dll
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.pdb
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/TiposDados.genruntimeconfig.cache
+/Users/arthurdiasgomesgerhardt/rocketseat/CSharp/TiposDados/obj/Debug/net8.0/ref/TiposDados.dll

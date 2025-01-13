@@ -1,0 +1,49 @@
+body {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #444444;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.lugar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.lugar img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    max-width: 600px;
+}
