@@ -1,6 +1,6 @@
 .card {
   background: var(--surface-color);
-  border: solid 1px var(--stroke-color);
+  border: 1px solid var(--stroke-color);
   border-radius: 1.5rem;
 
   & h3 {

@@ -3,15 +3,15 @@
 }
 
 .py-lg {
-  padding-block: var(--py-lg);
+  padding-inline: var(--py-lg);
 }
 
 .py-xl {
-  padding-inline: var(--py-xl);
-}
+  padding-block: var(--py-xl);
+} 
 
 .px-lg {
-  padding-inline: var(--px-lg);
+  padding-block: var(--px-lg);
 }
 
 .container {
