@@ -1,1 +1,0 @@
-const listaEstudantes = ['João', 'Juliana', 'Ana', 'Caio', 'Lara', 'Marjorie', 'Leo'];
